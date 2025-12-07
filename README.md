@@ -1,4 +1,9 @@
 # Banknote Authentication Using a Linear SVM
+![Project Status](https://img.shields.io/badge/Project_Status-Completed-brightgreen.svg)
+![Model](https://img.shields.io/badge/Model-Linear_SVM-purple.svg)
+![Environment](https://img.shields.io/badge/Tool-Kaggle-blue.svg)
+![Framework](https://img.shields.io/badge/Framework-NumPy-yellow.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 This project implements a Linear Support Vector Machine (SVM) from scratch using only NumPy to classify genuine vs counterfeit banknotes on the Banknote Authentication dataset, achieving above 99 percent test accuracy with clear visualizations of the cost curve and decision boundary.
 
