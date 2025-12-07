@@ -7,6 +7,8 @@
 
 This project implements a Linear Support Vector Machine (SVM) from scratch using only NumPy to classify genuine vs counterfeit banknotes on the Banknote Authentication dataset, achieving above 99 percent test accuracy with clear visualizations of the cost curve and decision boundary.
 
+<img width="1920" height="1038" alt="Image" src="https://github.com/user-attachments/assets/898c1ca9-6916-4155-a789-ce1e47646143" />
+
 ---
 
 ## 1. Problem Statement
@@ -19,9 +21,13 @@ The goal of this project is to:
 * Evaluate the performance using accuracy, precision, recall, F1 score, and a confusion matrix.
 * Visualize the decision boundary in 2D to make the model behavior easy to understand.
 
+<img width="1920" height="1040" alt="Image" src="https://github.com/user-attachments/assets/5ec694b5-fc87-43dd-9ff9-4171544ea0e3" />
+
 ---
 
 ## 2. Dataset Description
+
+<img width="1920" height="1035" alt="Image" src="https://github.com/user-attachments/assets/ffaa8e47-3902-4583-8a90-d78e5a33a29b" />
 
 **Dataset**: Banknote Authentication Dataset (UCI source, also available on Kaggle).
 
@@ -49,6 +55,8 @@ In the notebook:
 
 ## 3. Data Preprocessing
 
+<img width="1920" height="1036" alt="Image" src="https://github.com/user-attachments/assets/bd93f7bf-04f0-4301-a2d5-40d21a450b67" />
+
 Steps applied in the notebook:
 
 1. **Load the CSV file** into NumPy arrays.
@@ -75,6 +83,8 @@ Steps applied in the notebook:
 ## 4. Model: Linear SVM From Scratch
 
 The project uses a **Linear SVM** with soft margin.
+
+<img width="1920" height="1042" alt="Image" src="https://github.com/user-attachments/assets/ec8cce38-e2fd-4401-900d-4c7ee33282b6" />
 
 ### 4.1 SVM Objective Function
 
@@ -116,6 +126,8 @@ In the notebook:
 
 These values make the cost decrease smoothly and allow the model to converge.
 
+<img width="1920" height="1026" alt="Image" src="https://github.com/user-attachments/assets/979323fb-5c6c-4eee-8523-05e2de279958" />
+
 ---
 
 ## 5. Training Process
@@ -131,9 +143,15 @@ These values make the cost decrease smoothly and allow the model to converge.
 
 The notebook stores all cost values in `cost_history` and plots **Training Cost vs Iterations**.
 
+<img width="1920" height="1034" alt="Image" src="https://github.com/user-attachments/assets/2565c110-ca5e-4294-abff-9d794d4aff48" />
+
+<img width="1920" height="1041" alt="Image" src="https://github.com/user-attachments/assets/c8f59a38-d32b-4987-81b4-1f907e950f84" />
+
 ---
 
 ## 6. Evaluation Metrics
+
+<img width="1920" height="1045" alt="Image" src="https://github.com/user-attachments/assets/fa7f8ba1-2f04-4f7e-b69b-75d8fd72c986" />
 
 A custom `predict` function is written:
 
@@ -214,6 +232,8 @@ The notebook generates two key plots.
 * Visualizing the decision boundary in 2D helps to build intuition about how SVM separates the two classes and how the margin is defined.
 * Implementing the algorithm by hand (rather than using a library) gives a deeper understanding of SVM math and optimization.
 
+<img width="1920" height="1033" alt="Image" src="https://github.com/user-attachments/assets/efb9114f-5f9c-40a6-a996-4e6a9f0e3165" />
+
 ---
 
 ## 9. Limitations and Future Work
@@ -231,10 +251,14 @@ The notebook generates two key plots.
 * Add cross validation and hyperparameter tuning for learning rate, regularization, and iterations.
 * Wrap the model in a simple API or interface (for example a small CLI or web demo) so a user can input feature values and get a prediction.
 * Extend visualizations to show misclassified points more clearly and to explore other feature pairs.
+  
+<img width="1920" height="1035" alt="Image" src="https://github.com/user-attachments/assets/ca8589fb-0381-4fe6-b80a-d600000ec1ea" />
 
 ---
 
 ## 10. Glossary
+
+<img width="1920" height="1023" alt="Image" src="https://github.com/user-attachments/assets/9266ffb0-0f65-4cfc-83e9-4ec45173eb4b" />
 
 * **SVM (Support Vector Machine)**: A supervised learning algorithm that finds a hyperplane which best separates different classes with the maximum margin.
 * **Linear SVM**: An SVM that uses a straight line or hyperplane as the decision boundary.
